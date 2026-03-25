@@ -9,7 +9,7 @@ Resposta: B) Um modelo que define atributos e comportamentos
 Como o valor base para atributo health em um objeto da classe Enemy é 100 e apenas o valor de health em e1 é alterado, e2.health é 100.
 
 4 - 
-_health é um atributo privado, então não se deve alterá-lo diretamente. Porém, a linguagem GDScript, por ser baseada em Python, permite que essa alteração aconteça. Sendo assim, e1._health = 50 vai alterar _health para 50. Contudo, em linguagens como C# ou Java, um atributo privado nunca poderia ser alterado diretamente.
+_health é um atributo privado, então não se deve alterá-lo diretamente. Porém, a linguagem GDScript, por ser baseada em Python, permite que essa alteração aconteça. Sendo assim, e1._health = 50 vai alterar _health para 50. Contudo, em linguagens como C# ou Java, um atributo privado nunca poderia ser alterado diretamente (nessas linguagens, e._health permaneceria com o valor 100).
 
 5 - 
 Porque Boss é uma subclasse de Enemy, de forma que consegue usar todos os seus métodos (herança).
