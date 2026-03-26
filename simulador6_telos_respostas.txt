@@ -12,7 +12,7 @@ Como o valor base para atributo health em um objeto da classe Enemy é 100 e ape
 _health é um atributo privado, então não se deve alterá-lo diretamente. Porém, a linguagem GDScript, por ser baseada em Python, permite que essa alteração aconteça. Sendo assim, e._health = 50 vai alterar _health para 50. Contudo, em linguagens como C# ou Java, um atributo privado nunca poderia ser alterado diretamente, ou seja, o valor de e._health permaneceria 100.
 
 5 - 
-Porque Boss é uma subclasse de Enemy, de forma que consegue usar todos os seus métodos (herança).
+Porque boss é um objeto de BossEnemy, que por sua vez é uma subclasse de Enemy. Dessa forma, boss consegue usar todos os métodos de Enemy (graças ao conceito de herança).
 
 6 - 
 Será exibido o texto “Pulando”, pois, graças ao conceito de polimorfismo, JumpingEnemy pode alterar um método de sua superclasse Enemy.
